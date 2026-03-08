@@ -1,107 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Sarra Rejeb | Cloud & DevSecOps Engineer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sarra Rejeb | DevSecOps & Cloud Engineer</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: #0f172a;
-      color: white;
-      text-align: center;
-    }
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 
-    header {
-      padding: 80px 20px;
-      background: linear-gradient(135deg, #1e3a8a, #0ea5e9);
-    }
+<style>
+body{
+margin:0;
+font-family:Inter,sans-serif;
+background:#0b1220;
+color:#e5e7eb;
+}
 
-    h1 {
-      font-size: 40px;
-      margin: 0;
-    }
+section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
 
-    section {
-      padding: 60px 20px;
-    }
+h2{
+text-align:center;
+margin-bottom:50px;
+font-size:32px;
+}
 
-    .card {
-      background: #1e293b;
-      padding: 20px;
-      margin: 15px auto;
-      max-width: 700px;
-      border-radius: 12px;
-    }
+.card{
+background:#111a2e;
+padding:25px;
+border-radius:14px;
+margin:15px 0;
+transition:0.3s;
+}
 
-    a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
+.card:hover{
+transform:translateY(-6px);
+background:#16213a;
+}
 
-    footer {
-      padding: 30px;
-      background: #020617;
-      font-size: 14px;
-    }
-  </style>
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+button{
+background:#2563eb;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+}
+
+header{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#1d4ed8,#0ea5e9);
+}
+
+header h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.badge{
+display:inline-block;
+background:#1f2937;
+padding:6px 12px;
+border-radius:20px;
+margin:5px;
+font-size:14px;
+}
+</style>
 </head>
 
 <body>
 
 <header>
-  <h1>👩‍💻 Sarra Rejeb</h1>
-  <p>Cloud Computing & DevSecOps Engineer</p>
-  <p>🚀 Building secure, scalable cloud solutions</p>
+<h1>Sarra Rejeb</h1>
+<p>Cloud Architecture • DevSecOps • Infrastructure Automation</p>
+<br>
+<button onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'})">
+View My Work
+</button>
 </header>
 
 <section>
-  <h2>About Me</h2>
-  <div class="card">
-    Engineering student specialized in Cloud Architecture, DevOps and DevSecOps.
-    Passionate about building secure infrastructures, CI/CD pipelines and scalable systems.
-  </div>
+<h2>🚀 What I Do</h2>
+<div class="grid">
+<div class="card">☁ Cloud Architecture & OpenStack Environments</div>
+<div class="card">🛡 DevSecOps Pipelines & Security Integration</div>
+<div class="card">🐳 Containerization with Docker & Kubernetes</div>
+<div class="card">📊 Monitoring & Observability (Grafana, Prometheus)</div>
+</div>
+</section>
+
+<section id="skills">
+<h2>🛠 Technical Stack</h2>
+
+<div>
+<span class="badge">OpenStack</span>
+<span class="badge">Docker</span>
+<span class="badge">Kubernetes</span>
+<span class="badge">Ansible</span>
+<span class="badge">Azure</span>
+<span class="badge">AWS</span>
+<span class="badge">Jenkins</span>
+<span class="badge">Spring Boot</span>
+<span class="badge">Angular</span>
+<span class="badge">React</span>
+<span class="badge">SonarQube</span>
+<span class="badge">OWASP</span>
+<span class="badge">Grafana</span>
+<span class="badge">Prometheus</span>
+</div>
+</section>
+
+<section id="projects">
+<h2>🏗 Flagship Projects</h2>
+
+<div class="card">
+<strong>Private Cloud Infrastructure</strong><br>
+OpenStack + Kubernetes + Monitoring<br>
+Designed scalable IaaS architecture with HA and observability.
+</div>
+
+<div class="card">
+<strong>DevSecOps CI/CD Pipeline</strong><br>
+Security integrated into automation workflow.
+</div>
+
+<div class="card">
+<strong>Microservices Platform (TeamSync)</strong><br>
+Spring Boot + Angular + Kubernetes orchestration.
+</div>
+
 </section>
 
 <section>
-  <h2>Skills</h2>
-  <div class="card">
-    ☁️ OpenStack • Azure • AWS <br><br>
-    🐳 Docker • Kubernetes • Ansible <br><br>
-    🔐 DevSecOps • OWASP • SonarQube <br><br>
-    💻 Spring Boot • Angular • React
-  </div>
-</section>
+<h2>🎓 Education</h2>
 
-<section>
-  <h2>Projects</h2>
+<div class="card">
+ESPRIT – Engineering Cycle (Cloud Architecture)
+</div>
 
-  <div class="card">
-    <strong>Private Cloud Infrastructure</strong><br>
-    OpenStack • Kubernetes • Monitoring • High Availability
-  </div>
-
-  <div class="card">
-    <strong>DevSecOps CI/CD Pipeline</strong><br>
-    Automated security integration with Azure DevOps
-  </div>
+<div class="card">
+ISIMA – Network & Systems Engineering
+</div>
 
 </section>
 
 <section>
-  <h2>Contact</h2>
-  <div class="card">
-    📧 sarra.rejeb@esprit.tn <br>
-    💼 <a href="https://www.linkedin.com/in/sarra-rejeb-cloud-engineer">LinkedIn</a><br>
-    💻 <a href="https://github.com/sarra-rejeb">GitHub</a>
-  </div>
-</section>
+<h2>📫 Let's Connect</h2>
 
-<footer>
-  © 2026 Sarra Rejeb | Cloud & DevSecOps Portfolio
-</footer>
+<div class="button-container">
+<a href="https://www.linkedin.com/in/sarra-rejeb-cloud-engineer"
+class="btn btn-linkedin" target="_blank">
+💼 LinkedIn
+</a>
+
+<a href="https://github.com/sarra-rejeb"
+class="btn btn-github" target="_blank">
+💻 GitHub
+</a>
+</div>
+
+</section>
 
 </body>
 </html>
